@@ -22,6 +22,8 @@ The true usefulness of a recursive definiton comes from going the other way:
 
 *General case* - statement that references the function within a function: is responsible for the recursion.
 
+https://replit.com/@Minwauu/Basegeneral-cases#main.py in this example, the base case is in line 7 and the general case is in line 13.
+
 **All recursive functions/procedures follow a similar pattern:**
 - Am i at the base case? If so, return the easy solution if a function, and stop recursing; if a procedure stop recursing.
 - Otherwise, think in terms of solving the current problem by moving closer to the base case with a slightly simpler problem and moving this simpler problem.
